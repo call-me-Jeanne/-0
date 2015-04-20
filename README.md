@@ -1,1 +1,1 @@
-## Created to test Frontend skills
+## Ready template 'Desing Folio' from pcklab.com
