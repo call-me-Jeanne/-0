@@ -1,0 +1,348 @@
+body {
+    color: #b8b3b1;
+    background-color: #3d3d3d;
+    min-width: 600px;
+    height: 100%;
+
+}
+@font-face {
+    font-family: Decade;
+    src: url(font/decade.ttf);
+}
+input[type="text"] {
+    background-color: #000000;
+}
+.wrapper {
+    max-width: 897px;
+    margin: auto;
+    min-width: 600px;
+}
+header {
+    margin: auto;
+    max-width: 897px;
+    min-width: 50%;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+header table tbody {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+nav ul li a {
+    text-decoration: none;
+    width: auto;
+}
+nav ul {
+    display: block;
+    width: 100%;
+    table-layout: fixed;
+    margin: auto;
+    float: right;
+}
+nav li {
+    display: table-cell;
+    background: #000000;
+    text-align: center;
+    padding: 10px;
+    vertical-align: middle;
+    font: 14px 'Decade', sans-serif;
+}
+.top-menu {
+    display: table;
+    float: right;
+}
+.top-menu li a.active {
+    text-decoration: none;
+    color: #c7ff66;
+    font: 14px 'Decade', sans-serif;
+}
+
+.top-menu a {
+    color: #b8b3b1;
+}
+.banner span {
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 20px;
+    color: #ffffff;
+    font: 18px 'Decade', sans-serif;
+}
+.banner {
+    position: relative;
+    margin: auto;
+    max-width: 100%;
+    display: inline-block;
+    min-width: 600px;
+}
+
+.banner .img {
+    max-width: 100%;
+    height: auto;
+    min-width: 600px;
+}
+.menu2 {
+    max-width: 200px;
+    font: 18px 'Decade', sans-serif;
+    color: #7cbe5c;
+    display: table;
+    text-align: center;
+    table-layout: fixed;
+}
+.left_menu{
+    float: right;
+    margin-top: -60px;
+}
+.left_menu2 li a {
+    text-decoration: none;
+    color: #b8b3b1;
+    font: 14px 'Decade', sans-serif;
+
+}
+.left_menu2 li {
+    display: inline-block;
+}
+.left_menu2 li a.active {
+    text-decoration: none;
+    color: #c7ff66;
+    font: 14px 'Decade', sans-serif;
+}
+.left_menu2 {
+    max-width: 200px;
+    display: block;
+    text-align: left;
+    margin-right: 0;
+    padding-left: 0;
+}
+.table {
+    table-layout: fixed;
+    max-width: 100%;
+    height: auto;
+}
+
+.table tr td {
+    table-layout: auto;
+    text-align: center;
+}
+
+.table tr th img {
+    max-width: 100%;
+    height: auto;
+}
+.at-image {
+    display: block;
+    position: relative;
+    top: -30px;
+    left: 0;
+    color: #808080;
+}
+
+.under-image {
+    color: #808080;
+    position: relative;
+    top: -10px;
+}
+.h2 {
+    font: 18px 'Decade', sans-serif;
+    color: #7cbe5c;
+    position: relative;
+    bottom: -15px;
+}
+.services {
+    color: #808080;
+    font: 12px 'Decade', sans-serif;
+    position: relative;
+}
+.table_services {
+    table-layout: auto;
+    max-width: 100%;
+}
+.title{
+    text-align: left;
+    margin: 0px;
+}
+.table_services tr td {
+    table-layout: auto;
+    text-align: center;
+}
+
+p.text_cut {
+    max-height: 75px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #808080;
+    text-align: left;
+}
+.table_services tr th a img {
+    max-width: 220px;
+}
+.table_services tr th p1 {
+    position: relative;
+    bottom: -10px;
+}
+.table_services tr td button {
+    font: 14px 'Decade', sans-serif;
+    background: #7cbe5c;
+    border-radius: 3px;
+    border: none;
+    color: #fcf6f2;
+}
+
+.table_services tr td button a {
+    text-decoration: none;
+    color: #fcf6f2;
+}
+
+.table2 {
+    table-layout: auto;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.table2 tr th img {
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.page-buffer {
+    height: 50px;
+}
+.contact {
+    color: #7cbe5c;
+    font: 22px 'Decade', sans-serif;
+    margin-top: 40px;
+    margin-bottom: -5px;
+}
+.p {
+    color: #808080;
+    font: 12px 'Decade', sans-serif;
+}
+.go{
+    text-align: center;
+    font: 10px 'Decade', sans-serif;
+    color: #808080;
+    table-layout: fixed;
+}
+form .row {
+    display: block;
+    padding: 7px 8px;
+    margin-bottom: 2px;
+    max-width: 300px;
+}
+form label {
+    display: inline-block;
+    font-weight: bold;
+    font: 10px 'Decade', sans-serif;
+    width: 120px;
+    padding: 6px 0;
+    color: #7cbe5c;
+    vertical-align: top;
+}
+
+/* placeholder styles: http://stackoverflow.com/a/2610741/477958 */
+::-webkit-input-placeholder { color: #aaafbd; font-style: italic; } /* WebKit */
+:-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { color: #aaafbd; font-style: italic; } /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { color: #aaafbd; font-style: italic; } /* Internet Explorer 10+ */
+
+form .txt {
+    display: inline-block;
+    padding: 8px 9px;
+    padding-right: 30px;
+    width: 200px;
+    font: 14px 'Decade', sans-serif;
+    font-weight: normal;
+    color: #898989;
+}
+form#contactform table{
+    width: 897px;
+}
+#message{
+    height: 100px;
+    width: 400px;
+}
+#name {
+    width: 100px;
+}
+input[type=submit] {
+    padding:5px 15px;
+    background: #7cbe5c;
+    border:0 none;
+    cursor:pointer;
+    border-radius: 5px;
+    font: 14px 'Decade', sans-serif, #808080;
+    margin-left: 10px;
+}
+
+.footer {
+    margin: auto;
+    min-width: 400px;
+    max-width: 897px;
+    height: 40px;
+    position: relative;
+}
+
+.social {
+    float: right;
+    margin: 5px;
+}
+
+.copyright {
+    color: #808080;
+    float: left;
+    margin: auto;
+    font: 10px 'Decade';
+    text-align: right;
+}
+.hr {
+    display: block;
+    position: relative;
+    max-width: 897px;
+    min-width: 897px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botton-menu li a {
+    text-decoration: none;
+    font: 14px 'Decade', sans-serif;
+    text-align: left;
+    display: block;
+    table-layout: auto;
+}
+
+.botton-menu2 li a {
+    display: block;
+    text-decoration: none;
+    font: 14px 'Decade', sans-serif;
+    text-align: left;
+    margin: auto;
+    table-layout: auto;
+}
+
+.botton-menu a {
+    color: #808080;
+}
+
+.botton-menu2 a {
+    color: #808080;
+}
+
+#footer_menu {
+    max-width: 897px;
+    margin: 0 0 0 -10px;
+    position: relative;
+    display: block;
+}
+
+section > div > h2 {
+    font: 22px 'Decade', sans-serif;
+    margin: auto;
+    text-align: center;
+}
